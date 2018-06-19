@@ -46,7 +46,7 @@ p{
 
 #contact{
   background-color: #f7b11e;
-  height: 650px;
+  height: 850px;
 }
 
 .full-width{
@@ -62,6 +62,7 @@ p{
 .third-width{
   float: left;
   width: 400px;
+  margin: auto;
 }
 
 /**** HEADER ****/
@@ -141,19 +142,34 @@ h1 span{
 #contact h3{
   color: white;
   padding-top: 170px;
-  padding-bottom: 50px;
+  padding-bottom: 170px;
 }
 
-#contact img{
-  clear: right; 
+#linkedin-logo{
+  clear: right;
   display: block;
   float: left;
   height: 50px;
-  margin: 0 auto;
+  margin-left: 100px;
+  margin-right: 25px;
   width: 50px;
 }
 
-#contact h4, #contact p{
+#github-logo{
+  display: block;
+  height: 50px;
+  margin-left: 25px;
+  margin-right: 100px;
+  width: 50px;
+}
+
+
+#contact h4{
+  color: white;
+  padding-bottom: 25px;
+}
+
+#contact p{
   color: white;
   line-height: 25px;
 }
