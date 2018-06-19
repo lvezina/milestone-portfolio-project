@@ -49,11 +49,6 @@ p{
   height: 650px;
 }
 
-.container{
-  max-width: 1200px;
-  margin: auto;
-}
-
 .full-width{
   max-width: 1200px;
   margin: auto;
@@ -150,12 +145,22 @@ h1 span{
 }
 
 #contact img{
+  clear: right; 
   display: block;
-  height: 100px;
+  float: left;
+  height: 50px;
   margin: 0 auto;
-  width: 100px;
+  width: 50px;
 }
 
 #contact h4, #contact p{
   color: white;
+  line-height: 25px;
+}
+/**** FOOTER SECTION****/
+footer{
+  background-color: #f7b11e;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
 }
